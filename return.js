@@ -20,9 +20,19 @@ function personInfo() {
         }
     }
 
+    // same
+    // return person = {
+    //     name: 'Sakib',
+    //     skill: ['C', 'Java', 'Javascript', 'Php', 'Python'],
+    //     print: function () {
+    //         console.log(this.name, this.skill);
+    //     }
+    // }
+
 }
 const personBio = personInfo();
 console.log(personBio);
 personBio.print();
+// person.print(); //same
 
 
